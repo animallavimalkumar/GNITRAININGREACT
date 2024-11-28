@@ -1,14 +1,38 @@
-h2{
-  background-color:rgb(53, 50, 205);
-  color:red;
-  text-align: center;
-  padding: 20px;
-  margin:20px;
-  border-radius: 10px;
+/* Test5.css */
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  height: 100vh;           /* Full viewport height */
+  flex-direction: column;  /* Stack elements vertically */
 }
-marquee{
-  padding: 30px;
-  background-color: crimson;
-  color: yellow;
-  text-align: center;
+
+.input-field {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.heading {
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* Gni*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
 }

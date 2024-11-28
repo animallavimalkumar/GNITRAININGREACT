@@ -1,0 +1,17 @@
+.header {
+    text-align: center;
+    background-image: url('/assets/images/header-bg.jpg');
+    background-size: cover;
+    padding: 80px 20px;
+    color: white;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .header p {
+    font-size: 20px;
+  }
+  

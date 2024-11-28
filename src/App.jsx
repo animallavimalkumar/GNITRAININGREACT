@@ -51,7 +51,8 @@ function App(){
       
     </div>
   )
-}*/
+}*
+
 import {BrowserRouter, Route, Link, Routes} from 'react-router-dom'
 import Home from './components/Home'
 import About from './components/About'
@@ -81,5 +82,36 @@ function App(){
       </BrowserRouter>
     </div>
   )
+}
+export default App;
+
+import Test4 from "./Test4";
+import Test5 from "./Test5";
+import Test6 from "./Test6";
+function App(){
+  return(
+    <div>
+      <Test6/>
+    </div>
+  )
+}
+export default App;*/
+import React from "react";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
+//  import './assets/styles/style.css'; // Global styles
+function App() {
+  return (
+    <div>
+    <Header/>
+    <Body />
+
+
+    
+    <Footer />
+    </div>
+  );
 }
 export default App;

@@ -1,0 +1,51 @@
+/* Test6.css */
+.container {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    height: 100vh;            /* Full viewport height */
+    flex-direction: column;   /* Stack elements vertically */
+    background-color: #f4f4f4; /* Light background color */
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Fixed width for form */
+    display: flex;
+    flex-direction: column; /* Stack the form elements vertically */
+    gap: 15px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #5b9bd5; /* Focus border color */
+    outline: none; /* Remove outline */
+  }
+  
+  input::placeholder {
+    color: #888; /* Placeholder color */
+  }
+  
+  input{
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input:hover {
+    background-color: #4a8eb6;
+  }
+  
